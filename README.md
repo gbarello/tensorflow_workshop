@@ -1,10 +1,12 @@
+# A Short Tensorflow Workshop
+
 This is a small workshop on tensorflow written by Gabriel Barello for the Ahmadian/Mazzucatto group meeting in January of 2019.
 
 If you are reading this you've already gotten ahold of the git repo. Good job!
 
 The following is designed to get you up and running on a server that you have ssh access to.
 
-# Building your environment and starting Jupyter Lab
+## Building your environment and starting Jupyter Lab
 
 We are going to create a conda environment for you to use tensorflow in. To do so, `ssh` into the server and clone this git repo. Navigate to the repo root and run:
 
