@@ -39,6 +39,10 @@ Finally, open your browser and naviate to `localhost:XXXX` to connect to your ju
 
 When you are done, `ctrl-C` to in the server to close the jupyter lab server, and then run `$source deactivate`.
 
+## Introduction - (Introduction.ipynb)
+
+Open the `Introduction.ipynb` file in the jupyter. I recommend reading through and running each cell one at a time.
+
 ## Multi Layer Perceptron (MLP) Learning - (TF_MLP_notebook.ipynb)
 
 To run this notebook you need to unzip the MNIST data files. to do so run:
