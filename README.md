@@ -28,7 +28,7 @@ Finally, open your browser and naviate to `localhost:XXXX` to connect to your ju
 
 When you are done, `ctrl-C` to in the server to close the jupyter lab server, and then run `$source deactivate`.
 
-## Multi Layer Perceptron Learning
+## Multi Layer Perceptron (MLP) Learning - (TF_MLP_notebook.ipynb)
 
 To run this notebook you need to unzip the MNIST data files. to do so run:
 
@@ -36,3 +36,16 @@ To run this notebook you need to unzip the MNIST data files. to do so run:
 `unzip mnist_TEST.zip`
 
 Open the `TF_MLP_notebook.ipynb` file in the jupyter, and hit 'run all cells'. It will take a minute but should run through, train the network, and visualize the learning curve.
+
+## Recurrent Neural Network (RNN) Learning - (TF_RNN_notebook.ipynb)
+
+To run this notebook you need to unzip the MNIST data files. to do so run:
+
+`unzip mnist_TRAIN.zip`
+`unzip mnist_TEST.zip`
+
+Open the `TF_RNN_notebook.ipynb` file in the jupyter, and hit 'run all cells'. It will take a minute but should run through, train the network, and visualize the network output.
+
+## Stabilized Supralinear Network (SSN) Simulation - (Building_SNN.ipynb)
+
+Open the `Building_SSN.ipynb` file in the jupyter, and hit 'run all cells'. It will take a minute but should run through and simulate the netowrk on the GPU and on the CPU and print the results, as well as the computation time for each.
